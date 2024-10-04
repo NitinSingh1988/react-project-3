@@ -1,0 +1,37 @@
+.dicNumbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.dicNumbers ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+}
+.dicNumbers ul li{
+    border: 1px solid #000;
+    font-size: 14px;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.playNum{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.diceSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: auto;
+    gap: 20px;
+}
